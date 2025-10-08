@@ -143,7 +143,7 @@ Testing involves multiple steps to ensure the Kafka messaging and stream process
    
    This ensures Kafka is correctly receiving and delivering messages.
 
-   ![Demo Screenshot](images/Img1.png)
+   ![Demo Screenshot](Img1.png)
 
 3. **REST Controller Testing:**  
    Use your browser or tools like Postman to invoke the REST endpoint:
@@ -154,7 +154,7 @@ Testing involves multiple steps to ensure the Kafka messaging and stream process
 
    This triggers the publishing of a `PageEvent` to the Kafka topic `T2`. You can verify the message reception by running a Kafka console consumer on topic `T2`.
    
-   ![Demo Screenshot](images/Img2.png)
+   ![Demo Screenshot](Img2.png)
    
 5. **Spring Cloud Stream Consumer:**  
    The application includes a consumer function that automatically subscribes to topics and processes incoming messages. Monitoring the application logs or console output confirms consumption of messages and correct handling.
@@ -162,18 +162,18 @@ Testing involves multiple steps to ensure the Kafka messaging and stream process
 6. **Supplier and Stream Processing:**  
    The supplier simulates real-time event generation, publishing messages at configured intervals (default 1 second, adjustable via properties). Kafka Streams performs real-time analytics such as counting page visits within sliding windows. You can observe these processed results in topics like `T6`.
 
-   ![Demo Screenshot](images/Img3.png)
+   ![Demo Screenshot](Img3.png)
    
 8. **Real-Time Frontend Visualization:**  
    By accessing the `/analytics` endpoint, the backend streams analytics data using Server-Sent Events (SSE). The provided static `index.html` page subscribes to this stream and displays live charts of page visit counts using the Smoothie.js library. This visual feedback loop confirms the end-to-end pipeline is functional.
 
    🧠 Analytics page
-   ![Analytics Screenshot](images/Img4.png)  
-👉 [Open Analytics](http://localhost:8080/analytics)
+   ![Analytics Screenshot](Img4.png)  
+👉 http://localhost:8080/analytics
 
    🏠 Home Page
-   ![Home Page Screenshot](images/Img5.png)  
-👉 [Open Home Page](http://localhost:8080/index.html)
+   ![Home Page Screenshot](Img5.png)  
+👉 http://localhost:8080/index.html
 
 ---
 
