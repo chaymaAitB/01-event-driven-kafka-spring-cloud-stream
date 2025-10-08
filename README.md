@@ -167,13 +167,12 @@ Testing involves multiple steps to ensure the Kafka messaging and stream process
 8. **Real-Time Frontend Visualization:**  
    By accessing the `/analytics` endpoint, the backend streams analytics data using Server-Sent Events (SSE). The provided static `index.html` page subscribes to this stream and displays live charts of page visit counts using the Smoothie.js library. This visual feedback loop confirms the end-to-end pipeline is functional.
 
-   🧠 Analytics page
-   ![Analytics Screenshot](Img4.png)  
-👉 http://localhost:8080/analytics
+   🧠 Analytics page : http://localhost:8080/analytics
+   ![Analytics Screenshot](Img4.png)
+   
 
-   🏠 Home Page
+   🏠 Home Page : http://localhost:8080/index.html
    ![Home Page Screenshot](Img5.png)  
-👉 http://localhost:8080/index.html
 
 ---
 
