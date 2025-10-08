@@ -1,6 +1,7 @@
 # Event-Driven Architecture with Kafka and Spring Cloud Stream
 
-Watch the tutorial video here: [![Watch the video](https://img.youtube.com/vi/8uY7JE_X_Fw/0.jpg)](https://www.youtube.com/watch?v=8uY7JE_X_Fw)
+Watch the tutorial video here: 🎬 [Watch the demo video on YouTube](https://www.youtube.com/watch?v=8uY7JE_X_Fw)
+
 
 ## Overview
 This project demonstrates how to build an event-driven architecture using Apache Kafka as a message broker and Spring Cloud Stream for seamless integration in a Spring Boot environment. The focus is on producing, consuming, and processing real-time streaming data with Kafka and Kafka Streams, supported by practical examples and a live data visualization frontend.
